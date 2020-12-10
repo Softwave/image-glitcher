@@ -16,7 +16,6 @@ const Canvas = props => {
 
     // File stuff 
     const inputFileRef = React.createRef()
-    //const onFileChange = handleFileChange.bind()
 
 
     // Button stuff 
@@ -42,29 +41,8 @@ const Canvas = props => {
             imgSrc = event.target.result;
         }
             reader.readAsDataURL(e.target.files[0]);  
-        
-
-        //redraw(context)
     }
 
-    /*
-       const redraw = ctx => {
-        var canvas = ctx.canvas
-        var img = new Image()
-        var canvWidth = 600
-        img.onload = function() {
-            if(img.width>img.height){
-                canvas.width = canvWidth
-                canvas.height = canvWidth / img.width * img.height
-            } else {
-                canvas.width = canvWidth / img.height * img.width
-                canvas.height = canvWidth
-            }   
-            ctx.drawImage(img, 0, 0, canvas.width, canvas.height)
-        }
-        img.src = imgSrc
-    }
-    */
 
     const handleChangeAmount = (e) => {
         console.log(e.target.value)
@@ -115,31 +93,6 @@ const Canvas = props => {
         }
         img.src = imgSrc
     }
-    
-    //const draw = ctx => {
-    //    var canvas = ctx.canvas
- //
-    //    var img = new Image()
-    //    var canvWidth = 600
-    //    img.onload = function() {
-    //        if(img.width>img.height){
-    //            canvas.width = canvWidth
-    //            canvas.height = canvWidth / img.width * img.height
-    //        } else {
-    //            canvas.width = canvWidth / img.height * img.width
-    //            canvas.height = canvWidth
-    //        }   
-    //        ctx.drawImage(img, 0, 0, canvas.width, canvas.height)
-    //    }
-    //    img.src = imgSrc 
-    //}
-  
-    //useEffect(() => {
-    //    const canvas = canvasRef.current
-    //    const context = canvas.getContext('2d')
-//
-    //    draw(context)
-    //}, [draw])
   
     return (
         <div>
