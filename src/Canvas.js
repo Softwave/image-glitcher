@@ -36,9 +36,9 @@ const Canvas = props => {
 
 
     const handleChangeAmount = (e) => {
-        console.log(e.target.value)
+        //console.log(e.target.value)
         setGlitch(e.target.value)
-        console.log(glitchAmount)
+        //console.log(glitchAmount)
         //clickGlitch()
         //setState({glitchAmount: e.target.value})
         //glitchAmount = e.target.value
@@ -54,7 +54,14 @@ const Canvas = props => {
         
         
         var imageData = context.getImageData(0, 0, canvas.width, canvas.height)
-        glitch({amount: 35, quality: {glitchAmount}, seed: 25,iterations: {glitchAmount}})
+        var params = { 
+            amount: 5,
+            quality: 64,
+            iterations: parseInt(glitchAmount),
+            seed: 25
+        }
+        console.log(params)
+        glitch(params)
             .fromImageData(imageData)
             .toDataURL()
             .then(function(dataURL) { 
@@ -73,7 +80,7 @@ const Canvas = props => {
             <input type="file" ref={inputFileRef} onChange={handleFileChange}></input>
             <h2>Amount</h2>
             <div className="Canvas-slidecontainer">
-                <input type="range" min="1" max="100" onChange={handleChangeAmount} defaultValue="0" className="Canvas-slider" id="myRange"></input>
+                <input type="range" min="1" max="99" onChange={handleChangeAmount} defaultValue="0" className="Canvas-slider" id="myRange"></input>
             </div>
             <div className="Canvas-container">
                 <canvas className="Canvas-canvas" ref={canvasRef} {...props}/>
