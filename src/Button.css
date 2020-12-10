@@ -1,0 +1,30 @@
+.Button-button {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0px;
+	color: #ffffff;
+	font-size: 26px;
+	background: #000000;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	box-sizing: border-box;
+    margin-top: 0.5em;
+    display: inline-block;
+    text-align: center;
+    width: 45%;
+}
+.Button-button:hover {
+	background:#FF0099;
+}
+.Button-button:active {
+	background: #ff0000;
+	text-decoration: none;
+}
+
+.Glitch {
+    float: right;
+}
+        
+.Load.Image {
+    
+}
