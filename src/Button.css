@@ -11,7 +11,8 @@
     margin-top: 0.5em;
     display: inline-block;
     text-align: center;
-    width: 45%;
+	width: 45%;
+	border-width: 0px;
 }
 .Button-button:hover {
 	background:#FF0099;
