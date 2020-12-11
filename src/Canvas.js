@@ -78,7 +78,7 @@ const Canvas = props => {
     return (
         <div>
             <input type="file" ref={inputFileRef} onChange={handleFileChange}></input>
-            <h2>Amount</h2>
+            <h2 className="Canvas-label">Amount</h2>
             <div className="Canvas-slidecontainer">
                 <input type="range" min="1" max="99" onChange={handleChangeAmount} defaultValue="0" className="Canvas-slider" id="myRange"></input>
             </div>

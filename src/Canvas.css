@@ -38,6 +38,10 @@
     cursor: pointer;   
 }
 
+.Canvas-slider::-webkit-slider-thumb:hover {
+    background: #ff0099;
+}
+
 .Canvas-slider::-moz-range-thumb {
     appearance: none;
     width: 25px; 
@@ -47,6 +51,15 @@
     cursor: pointer; 
 }
 
+.Canvas-slider::-moz-range-thumb:hover {
+    background: #ff0099;
+}
+
 input[type="file"] {
     display: none;
+}
+
+.Canvas-label {
+    text-align: center;
+    margin-bottom: 0px;
 }
