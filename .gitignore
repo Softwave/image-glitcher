@@ -107,5 +107,3 @@ dist
 .tern-port
 
 
-# JavaScript not HTML project 
-*.html linguist-detectable=false
