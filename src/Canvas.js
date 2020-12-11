@@ -76,7 +76,7 @@ const Canvas = props => {
     }
   
     return (
-        <div>
+        <div className="Canvas-bigcontainer">
             <input type="file" ref={inputFileRef} onChange={handleFileChange}></input>
             <h2 className="Canvas-label">Amount</h2>
             <div className="Canvas-slidecontainer">

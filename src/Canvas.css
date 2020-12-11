@@ -6,6 +6,24 @@
 
 }
 
+
+
+@media screen and (orientation: portrait) {
+    .Canvas-bigcontainer {
+        text-align: center;
+        margin-inline-start: 1em;
+        margin-inline-end: 1em;
+    }
+    
+}
+
+@media screen and (orientation: landscape) {
+    .Canvas-bigcontainer {
+        height: 20%;
+    }
+
+}
+
 .Canvas-canvas {
     width: 100%;
     height: 100%;

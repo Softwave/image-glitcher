@@ -1,3 +1,11 @@
 .App-title {
   text-align: center;
+  font-size: 3em;
+}
+
+@media screen and (orientation: landscape) {
+  .App-title {
+    margin: 0em;
+  }
+
 }

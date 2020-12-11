@@ -3,7 +3,7 @@
 	-moz-border-radius: 0;
 	border-radius: 0px;
 	color: #ffffff;
-	font-size: 26px;
+	font-size: 22px;
 	background: #000000;
 	padding: 10px 20px 10px 20px;
 	text-decoration: none;
@@ -36,5 +36,5 @@
 }
         
 .Load.Image {
-    
+    float: left;
 }
