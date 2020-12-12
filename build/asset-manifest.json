@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/image-glitcher/static/css/main.c3a865a6.chunk.css",
+    "main.css": "/image-glitcher/static/css/main.218f88e4.chunk.css",
     "main.js": "/image-glitcher/static/js/main.ed9ced3e.chunk.js",
     "main.js.map": "/image-glitcher/static/js/main.ed9ced3e.chunk.js.map",
     "runtime-main.js": "/image-glitcher/static/js/runtime-main.1ab20864.js",
@@ -10,13 +10,13 @@
     "static/js/3.32a4b430.chunk.js": "/image-glitcher/static/js/3.32a4b430.chunk.js",
     "static/js/3.32a4b430.chunk.js.map": "/image-glitcher/static/js/3.32a4b430.chunk.js.map",
     "index.html": "/image-glitcher/index.html",
-    "static/css/main.c3a865a6.chunk.css.map": "/image-glitcher/static/css/main.c3a865a6.chunk.css.map",
+    "static/css/main.218f88e4.chunk.css.map": "/image-glitcher/static/css/main.218f88e4.chunk.css.map",
     "static/js/2.1b1dcb85.chunk.js.LICENSE.txt": "/image-glitcher/static/js/2.1b1dcb85.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1ab20864.js",
     "static/js/2.1b1dcb85.chunk.js",
-    "static/css/main.c3a865a6.chunk.css",
+    "static/css/main.218f88e4.chunk.css",
     "static/js/main.ed9ced3e.chunk.js"
   ]
 }
